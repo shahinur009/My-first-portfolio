@@ -41,12 +41,36 @@ nav a{
 
 .header{
 background-color: #cead96;
+background-image: url('../images/header_bg.png');
+background-repeat: no-repeat;
+background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 130px;
+    padding: 30px 30px 0px 130px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 500px;
 }
 .banner .profile-picture{
-    width:500px;
+    width: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #cead96;
+    margin-bottom: 0px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-description{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
