@@ -103,6 +103,9 @@ main{
     justify-content: space-between;
 
 }
+.section-description{
+    font-size: 22px;
+}
 .info-title{
     font-size: 25px;
     color: #fd6e0a;
