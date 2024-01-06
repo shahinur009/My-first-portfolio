@@ -56,6 +56,7 @@ background-image: url('../images/header_bg.png');
 background-repeat: no-repeat;
 background-position: bottom right;
 }
+
 .banner{
     padding: 30px 30px 0px 130px;
     display: flex;
@@ -68,6 +69,7 @@ background-position: bottom right;
 .banner .profile-picture{
     width: 500px;
 }
+
 .banner-greeting{
     font-size: 30px;
     color: #cead96;
@@ -87,9 +89,11 @@ background-position: bottom right;
 }
 main{
     max-width: 1140px;
-    height: 550px;
     margin: 0 auto;
     
+}
+.main section{
+    margin-top: 130px;
 }
 .about{
     padding: 130px;
@@ -114,4 +118,38 @@ main{
 }
 .info-desription{
     font-size: 20px;
+}
+#what-i-do-description{
+    padding: 30px 150px;
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(171, 47, 47, 0.06);
+
+}
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-container{
+    display: flex;
+    gap: 52px;
+}
+.resume-container hr{
+    margin: 25px;
+}
+.resume-item-institute, .resume-item-description{
+    color:#757575;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 60px;
 }
